@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family - Animal NGO</title>
+    <meta name="description"
+        content="My Family is a startup Animal NGO dedicated to animal welfare, rescue, and advocacy. Support our mission today!">
+    <meta property="og:title" content="My Family - Animal NGO">
+    <meta property="og:description"
+        content="My Family is a startup Animal NGO dedicated to animal welfare, rescue, and advocacy. Support our mission today!">
+    <meta property="og:image" content="URL to Hero Image">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#546E7A', // Steel Blue
+                        secondary: '#80CBC4', // Teal
+                        accent: '#A1887F', // Brown
+                        neutral: '#ECEFF1', // Light Gray
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- JSON-LD markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "My Family Animal NGO",
+      "url": "https://www.example.com",
+      "logo": "https://www.example.com/logo.png",
+      "description": "Animal NGO",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "Anytown",
+        "addressRegion": "CA",
+        "postalCode": "91234",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-123-4567",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://www.facebook.com/MyFamilyNGO",
+        "https://twitter.com/MyFamilyNGO",
+        "https://www.instagram.com/MyFamilyNGO"
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-neutral font-sans">
+    <header class="sticky top-0 z-50 bg-white shadow-md" role="banner">
+        <nav class="container mx-auto px-4 py-3 flex items-center justify-between" aria-label="Main Navigation">
+            <div>
+                <a href="/" class="flex items-center">
+                    <!--  Replace with actual logo if available -->
+                    <span class="text-2xl font-bold text-primary">My Family</span>
+                </a>
+            </div>
+            <ul class="hidden md:flex space-x-6" aria-label="Navigation Links">
+                <li><a href="#about" class="hover:text-secondary transition-colors">About Us</a></li>
+                <li><a href="#features" class="hover:text-secondary transition-colors">Features</a></li>
+                <li><a href="#benefits" class="hover:text-secondary transition-colors">Benefits</a></li>
+                <li><a href="#contact" class="hover:text-secondary transition-colors">Contact</a></li>
+            </ul>
+            <div class="md:hidden">
+                <button aria-label="Open Menu" class="text-primary hover:text-secondary focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section class="relative py-24 md:py-32 bg-cover bg-center"
+            style="background-image: url(https://images.unsplash.com/photo-1665802117152-73f00cce89bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxNeSUyMGZhbWlseSUyMHxlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080)">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="container mx-auto px-4 relative z-10 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Giving Animals a Loving Home</h1>
+                <p class="text-lg md:text-xl text-neutral mb-8">Join us in our mission to rescue, rehabilitate, and
+                    rehome animals in need.</p>
+                <a href="#contact"
+                    class="inline-block bg-secondary hover:bg-teal-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors">Donate
+                    Now</a>
+                <p class="text-sm text-neutral mt-4">Photo by Lena Bauermeister on Unsplash</p>
+            </div>
+        </section>
+
+        <section class="py-12 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-around items-center">
+                    <img src="https://via.placeholder.com/100" alt="Partner 1" class="h-16 w-auto grayscale opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="https://via.placeholder.com/100" alt="Partner 2" class="h-16 w-auto grayscale opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="https://via.placeholder.com/100" alt="Partner 3" class="h-16 w-auto grayscale opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="https://via.placeholder.com/100" alt="Partner 4" class="h-16 w-auto grayscale opacity-75 hover:opacity-100 transition-opacity">
+                    <img src="https://via.placeholder.com/100" alt="Partner 5" class="h-16 w-auto grayscale opacity-75 hover:opacity-100 transition-opacity">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-16 bg-neutral">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-primary mb-12">Our Core Pillars</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1630187225546-37e307fc3f0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxNeSUyMGZhbWlseSUyMHxlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                            alt="Animal Rescue" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-primary mb-2">Animal Rescue</h3>
+                        <p class="text-gray-700">We actively rescue animals from dangerous situations, providing
+                            them with immediate care and shelter.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1591604317528-42908625600e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuaW1hbCUyMGhlYWx0aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="Animal Rehabilitation" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-primary mb-2">Animal Rehabilitation</h3>
+                        <p class="text-gray-700">Our dedicated team provides medical care, rehabilitation, and
+                            emotional support to injured and traumatized animals.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <img src="https://images.unsplash.com/photo-1560786329-e9e4b1693807?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGFuaW1hbCUyMGFkb3B0aW9ufGVufDB8fDB8fHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="Animal Adoption" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold text-primary mb-2">Animal Adoption</h3>
+                        <p class="text-gray-700">We carefully match rescued animals with loving families, ensuring
+                            they find their forever homes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-primary mb-12">Make A Difference</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="shrink-0">
+                                    <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-3 text-gray-700">Provide food, shelter, and medical care to rescued
+                                    animals.</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="shrink-0">
+                                    <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-3 text-gray-700">Help us expand our rescue operations and reach more
+                                    animals in need.</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="shrink-0">
+                                    <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-3 text-gray-700">Support our advocacy efforts to promote animal welfare
+                                    and prevent cruelty.</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="shrink-0">
+                                    <svg class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-3 text-gray-700">Contribute to a community of compassionate individuals dedicated to animal well-being.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1598527647778-0c8006525991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbCUyMGNhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="Happy Dog" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                            alt="Our Mission" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-primary mb-6">About My Family</h2>
+                        <p class="text-gray-700 mb-4">My Family is a non-profit organization dedicated to the rescue,
+                            rehabilitation, and rehoming of abandoned and neglected animals. We believe that every
+                            animal deserves a loving home and a chance at a happy life.</p>
+                        <p class="text-gray-700">Our team of dedicated volunteers and staff work tirelessly to provide
+                            the best possible care for the animals in our charge. We rely on the generosity of our
+                            supporters to continue our mission.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-primary mb-12">Testimonials</h2>
+                <div class="grid grid-cols-1 gap-8">
+                    <div class="bg-neutral rounded-lg shadow-md p-6">
+                        <p class="text-gray-700 italic mb-4">"My Family has been an incredible support in helping me
+                            find my new furry friend. They are compassionate, caring, and truly dedicated to the
+                            well-being of animals."</p>
+                        <div class="flex items-center">
+                            <img src="https://via.placeholder.com/40" alt="Jane Doe"
+                                class="h-10 w-10 rounded-full mr-4">
+                            <div>
+                                <p class="font-semibold text-primary">Jane Doe</p>
+                                <p class="text-sm text-gray-500">Happy Adopter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-neutral rounded-lg shadow-md p-6">
+                        <p class="text-gray-700 italic mb-4">"I'm so grateful for the work that My Family does in our
+                            community. They are a lifeline for animals in need and a valuable resource for pet
+                            owners."</p>
+                        <div class="flex items-center">
+                            <img src="https://via.placeholder.com/40" alt="John Smith"
+                                class="h-10 w-10 rounded-full mr-4">
+                            <div>
+                                <p class="font-semibold text-primary">John Smith</p>
+                                <p class="text-sm text-gray-500">Local Volunteer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consider adding a pricing section if relevant for an NGO (e.g., different donation tiers) -->
+
+        <section class="py-16 bg-neutral">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-primary mb-12">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <button class="w-full text-left text-primary font-semibold focus:outline-none">
+                            What is your mission?
+                        </button>
+                        <div class="mt-2 text-gray-700 hidden">
+                            Our mission is to rescue, rehabilitate, and rehome abandoned and neglected animals,
+                            providing them with the love and care they deserve.
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <button class="w-full text-left text-primary font-semibold focus:outline-none">
+                            How can I donate?
+                        </button>
+                        <div class="mt-2 text-gray-700 hidden">
+                            You can donate through our website, by mail, or by attending one of our fundraising
+                            events. Visit our donation page for more information.
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <button class="w-full text-left text-primary font-semibold focus:outline-none">
+                            How can I volunteer?
+                        </button>
+                        <div class="mt-2 text-gray-700 hidden">
+                            We offer a variety of volunteer opportunities, including animal care, event support, and
+                            administrative assistance. Fill out our volunteer application form to get started.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-secondary">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-6">Ready to Make a Difference?</h2>
+                <p class="text-lg text-neutral mb-8">Join our community of animal lovers and help us create a better
+                    world for animals in need.</p>
+                <a href="#contact"
+                    class="inline-block bg-white hover:bg-gray-100 text-secondary font-semibold py-3 px-6 rounded-lg transition-colors">Donate
+                    Now</a>
+            </div>
+        </section>
+
+        <section id="contact">
+          <div class='py-16 bg-white'><div class='max-w-2xl mx-auto px-6'><h2 class='text-3xl font-bold text-gray-900 mb-8 text-center'>Contact Us</h2><form class='space-y-6'><div><label class='block text-sm font-medium text-gray-700 mb-2'>Name</label><input type='text' class='w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent' placeholder='Your name'></div><div><label class='block text-sm font-medium text-gray-700 mb-2'>Email</label><input type='email' class='w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent' placeholder='your@email.com'></div><div><label class='block text-sm font-medium text-gray-700 mb-2'>Message</label><textarea rows='4' class='w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent' placeholder='Your message'></textarea></div><button type='submit' class='w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors'>Send Message</button></form></div></div>
+        </section>
+    </main>
+
+    <footer class='bg-gray-900 text-white py-12'><div class='max-w-7xl mx-auto px-6'><div class='grid grid-cols-1 md:grid-cols-4 gap-8'><div><h3 class='font-bold text-lg mb-4'>My Family Animal NGO</h3><p class='text-gray-400'>Dedicated to the rescue, rehabilitation, and rehoming of abandoned animals.</p></div><div><h4 class='font-semibold mb-4'>Quick Links</h4><ul class='space-y-2'><li><a href='#' class='text-gray-400 hover:text-white'>About Us</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Our Work</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Contact Us</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Donate</a></li></ul></div><div><h4 class='font-semibold mb-4'>Get Involved</h4><ul class='space-y-2'><li><a href='#' class='text-gray-400 hover:text-white'>Volunteer</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Foster</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Adopt</a></li></ul></div><div><h4 class='font-semibold mb-4'>Follow Us</h4><ul class='space-y-2'><li><a href='#' class='text-gray-400 hover:text-white'>Facebook</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Twitter</a></li><li><a href='#' class='text-gray-400 hover:text-white'>Instagram</a></li></ul></div></div><div class='border-t border-gray-800 mt-8 pt-8 text-center text-gray-400'><p>&copy; 2024 My Family Animal NGO. All rights reserved.</p></div></div></footer>
+</body>
+
+</html>
